@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project 1",
+    "slug": "project-1",
+    "url": "https://whymycarecounts.org/",
+    "image": "/images/projects-1.png",
+    "description": "I built this to show off my skills."
+  },
+  {
+    "title": "Project 1",
+    "slug": "project-1",
+    "url": "https://whymycarecounts.org/",
+    "image": "/images/projects-1.png",
+    "description": "I built this to show off my skills."
+  },
+  {
+    "title": "Project 1",
+    "slug": "project-1",
+    "url": "https://whymycarecounts.org/",
+    "image": "/images/projects-1.png",
+    "description": "I built this to show off my skills."
+  }
+]
