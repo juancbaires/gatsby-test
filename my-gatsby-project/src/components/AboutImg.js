@@ -22,15 +22,12 @@ const Image = ({ filename, alt }) => (
       }
     `}
     render={data => {
-      const image = data.images.edges.find(
-        n => n.node.relativePath.includes(filename)
-        // n.node.relativePath.includes(filename)
+      const image = data.images.edges.find(n =>
+        n.node.relativePath.includes(filename)
       )
-      console.log(image)
       if (!image) return null
 
       const imageFixed = image.node.childImageSharp.fixed
-      console.log(imageFixed)
       return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />
     }}
   />

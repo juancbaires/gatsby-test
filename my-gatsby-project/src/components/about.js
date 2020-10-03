@@ -21,23 +21,11 @@ export default function about() {
             <Fade left={true} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Excepturi neque, ipsa animi maiores repellendu
-                  distinctioaperiam earum dolor voluptatum consequatur
-                  blanditiis inventore debitis fuga numquam voluptate architecto
-                  itaque molestiae.
+                  I’m a Front-End Developer who writes clean, efficient and
+                  reusable code. My attention to detail, diagnostic skills and
+                  team work are essential to my approach; allowing me the
+                  ability to adapt and overcome problems at hand.
                 </p>
-                <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Excepturi neque, ipsa animi maiores repellendu
-                  distinctioaperiam earum dolor voluptatum consequatur
-                  blanditiis inventore debitis fuga numquam voluptate architecto
-                  itaque molestiae.
-                </p>
-                <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                </p>
-
                 <span className="d-flex mt-3">
                   <a
                     target="_blank"

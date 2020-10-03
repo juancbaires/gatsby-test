@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Projects from "./projects"
 import Header from "./header"
 import About from "./about"
 import "../style/_main.scss"
@@ -28,6 +29,8 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <About />
+      <Projects />
+
       <div
         style={{
           margin: `0 auto`,

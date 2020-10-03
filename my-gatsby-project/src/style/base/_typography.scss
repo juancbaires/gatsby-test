@@ -2,6 +2,14 @@
 @import "~bootstrap/scss/bootstrap";
 h1 {
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 p,
@@ -28,7 +36,7 @@ a:hover {
   font-size: $big-font-size;
   font-weight: bold;
   text-transform: uppercase;
-
+  text-align: center;
   @include respond(phone) {
     font-size: 2.8rem;
   }

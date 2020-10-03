@@ -1,5 +1,4 @@
-import React, { useContext, useState, useEffect } from "react"
-import PropTypes from "prop-types"
+import React, { useState, useEffect } from "react"
 import Container from "react-bootstrap/Container"
 import Fade from "react-reveal/Fade"
 
@@ -31,7 +30,7 @@ const Header = () => {
             Hi, my name is
             <span className="text-color-main"> Juan Baires. </span>
             <br />
-            I'm Full Stack Web Developer.
+            I'm Front-End Web Developer.
           </h1>
         </Fade>
         <Fade
