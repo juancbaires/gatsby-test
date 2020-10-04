@@ -8,18 +8,18 @@ export default function about() {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me"></Title>
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename="rockin.jpg" />
+                <AboutImg alt="profile picture" filename="headShot.jpg" />
               </div>
             </Fade>
           </Col>
           <Col md={6} sm={12}>
             <Fade left={true} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
+                <Title title="About Me"></Title>
                 <p className="about-wrapper__info-text">
                   I’m a Front-End Developer who writes clean, efficient and
                   reusable code. My attention to detail, diagnostic skills and

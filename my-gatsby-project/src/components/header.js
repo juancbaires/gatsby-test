@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import Container from "react-bootstrap/Container"
 import Fade from "react-reveal/Fade"
+import { Link } from "react-scroll"
 
 const Header = () => {
   const [isDesktop, setIsDesktop] = useState(false)
@@ -42,7 +43,9 @@ const Header = () => {
         >
           <p>
             <span className="cta-btn cta-btn--hero">
-              <a href="/">Know More</a>
+              <Link to="about" smooth duration={1000}>
+                Know more
+              </Link>
             </span>
           </p>
         </Fade>

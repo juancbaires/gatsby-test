@@ -38,3 +38,29 @@ export const projectsData = [
     repo: "",
   },
 ]
+
+// FOOTER DATA
+export const footerData = {
+  networks: [
+    {
+      id: nanoid(),
+      name: "twitter",
+      url: "https://twitter.com/juancbaires",
+    },
+    {
+      id: nanoid(),
+      name: "codepen",
+      url: "https://codepen.io/Juancbaires",
+    },
+    {
+      id: nanoid(),
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/juan-baires-2969a5122/",
+    },
+    {
+      id: nanoid(),
+      name: "github",
+      url: "https://github.com/juancbaires",
+    },
+  ],
+}
