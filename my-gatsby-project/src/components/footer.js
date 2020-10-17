@@ -17,12 +17,12 @@ const Footer = () => {
         </span>
         <div className="social-links">
           {networks &&
-            networks.map(network => {
+            networks.reverse().map(network => {
               const { id, name, url } = network
               return (
                 <a
                   key={id}
-                  href={url || "https://github.com/cobidev/gatsby-simplefolio"}
+                  href={url || "https://github.com/juancbaires"}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - developed by{" "}
+          © {new Date().getFullYear()} - Developed By{" "}
           <a
             href="https://github.com/juancbaires"
             target="_blank"

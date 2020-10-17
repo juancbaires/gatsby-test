@@ -5,6 +5,13 @@ import { Container, Row, Col } from "react-bootstrap"
 import Title from "../components/title"
 import ProjectImg from "./ProjectImg"
 import { projectsData } from "../mock/data"
+import WordpressIcon from "../assets/Wordpress-icon.svg"
+import SassIcon from "../assets/sass-icon.svg"
+import GruntIcon from "../assets/grunt-icon.svg"
+import HtmlIcon from "../assets/html-icon.svg"
+import JqueryIcon from "../assets/jquery-icon.svg"
+import PHPIcon from "../assets/php-icon.svg"
+import GithubIcon from "../assets/github-icon.svg"
 
 const Projects = () => {
   const [isDesktop, setIsDesktop] = useState(false)
@@ -47,6 +54,32 @@ const Projects = () => {
                           {info ||
                             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae."}
                         </p>
+                        {/* <h3 className="project-wrapper__text-title">
+                          Technology Used:
+                        </h3> */}
+                        <ul className="project-icons">
+                          <li>
+                            <WordpressIcon />
+                          </li>
+                          <li>
+                            <PHPIcon />
+                          </li>
+                          <li>
+                            <JqueryIcon />
+                          </li>
+                          <li>
+                            <SassIcon />
+                          </li>
+                          <li>
+                            <GruntIcon />
+                          </li>
+                          <li>
+                            <HtmlIcon />
+                          </li>
+                          <li>
+                            <GithubIcon />
+                          </li>
+                        </ul>
                         <p className="mb-4">{info2 || ""}</p>
                       </div>
                       <a

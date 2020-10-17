@@ -79,5 +79,20 @@
         }
       }
     }
+    ul.project-icons {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      max-width: 100%;
+      padding: 0px;
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+      li {
+        height: 42px;
+        width: 42px;
+        margin-right: 10px;
+      }
+    }
   }
 }

@@ -25,6 +25,9 @@
 .cta-btn--hero {
   a {
     font-size: 2.4rem !important;
+    @include respond(tab-land) {
+      font-size: 1.4rem !important;
+    }
   }
   background-image: linear-gradient(
     135deg,

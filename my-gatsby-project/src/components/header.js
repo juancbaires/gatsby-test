@@ -31,7 +31,7 @@ const Header = () => {
             Hi, my name is
             <span className="text-color-main"> Juan Baires. </span>
             <br />
-            I'm Front-End Web Developer.
+            I'm a Front-End Web Developer.
           </h1>
         </Fade>
         <Fade

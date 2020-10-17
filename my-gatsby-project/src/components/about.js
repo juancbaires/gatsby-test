@@ -26,12 +26,18 @@ export default function about() {
                   team work are essential to my approach; allowing me the
                   ability to adapt and overcome problems at hand.
                 </p>
+                {/* <p className="about-wrapper__info-text">
+                  For that last year, I've been working as a web developer for
+                  Social Driver. A digital agency based out of Washington DC
+                  that specializes is custom websites, managing social media and
+                  advertisement. Prior to joining 
+                </p> */}
                 <span className="d-flex mt-3">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href="/"
+                    href="https://drive.google.com/file/d/1k7vlcrr78HIQfSe9QQUIYDVisWVVBE6l/view?usp=sharing"
                   >
                     Resume
                   </a>
